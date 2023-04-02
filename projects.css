@@ -1,0 +1,186 @@
+.main
+{
+    border: solid 1px transparent;
+    height: 850px;
+    width: 100%;
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    background-image: url(./images/background.webp);
+}
+
+.header
+{
+    border: solid 1px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #210f0e97;
+}
+.navi
+{
+    border: solid 0px transparent;
+    height: 100px;
+    width: 80%;
+}
+.header img
+{
+    height:"60px";
+     width:"280px";
+     margin-left: 70px;
+}
+.a1
+{
+    height: 20px;
+    width: 90px;
+    color: white;
+    margin-top: -13px;
+    text-align: center;
+    padding: 20px 40px 20px 0px; 
+    
+}
+.a1:hover
+{
+      background-color: brown;
+}
+.a1 a
+{
+      color:aliceblue;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.a2
+{
+    height: 20px;
+    width: 130px;
+    margin-top: -13px;
+    text-align: center;
+    padding: 20px 0px 20px 0px; 
+    font-size: 20px;
+    
+}
+.a2:hover
+{
+      color: white;
+      background-color: brown;
+}
+.dot
+{
+text-decoration: none;
+color: transparent;
+}
+
+.navi ul
+{
+    margin: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;   
+}
+.head{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+.pb1img{
+margin-left: 250px;
+}
+.pb1head{
+    font-size: 28px;
+    font-weight:500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a3a3a3;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+.pb1con{
+    color:#ffffff ;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    height: 32px;
+    width: 120px;
+    color: #ffffff;
+    background-color: #3c0f38b9;
+    margin-left: 360px;
+    margin-top: 30px;
+}
+button:hover
+{
+    background-color: brown;
+}
+.hai{
+    margin-top: 63px;
+}
+
+.pb1{
+    display: flex;
+}
+.projbody{
+    background-color: black;
+    margin-top: -52px;
+    height: 950px;
+}
+
+
+
+.footer
+{
+      border: solid 0px transparent;
+      height: 100px;
+      width: 100%;
+      
+}
+.footer1
+{
+      border: solid 0px transparent;
+      display: flex;
+      position: absolute;
+      height: 80px;
+      width: 100%;
+      background-color:#a3a3a3;
+      margin-top: 200px;
+      
+      justify-content: center;
+      
+}
+.footer1 h1
+{
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+}
+.footer1 img
+{
+     margin-top: 10px; 
+     
+     padding: 20px 30px;
+}
+.footnote
+{
+      border: solid 0px transparent;
+      background-color: #ffffff;
+      height: 90px;
+      width: 100%;
+      margin-top: 180px;
+      
+      
+      
+}
+.footnote p
+{
+      text-align: center;
+      color: black;
+      padding: 40px 10px;
+      font-size: larger;
+      font-family: 'Courier New', Courier, monospace;
+      font-style: normal;
+}
